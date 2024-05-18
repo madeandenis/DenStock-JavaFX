@@ -1,0 +1,78 @@
+.table-view{
+   -fx-background-color: transparent;
+}
+
+.table-view:focused{
+    -fx-background-color: transparent;
+}
+
+/* TableView Scrollbar Track */
+.table-view .scroll-bar:vertical .track {
+    -fx-background-color: #333333;
+}
+
+/* TableView Scrollbar Thumb */
+.table-view .scroll-bar:vertical .thumb {
+    -fx-background-color: #191919;
+}
+
+/* TableView Scrollbar Arrow Buttons */
+.table-view .scroll-bar:vertical .increment-button,
+.table-view .scroll-bar:vertical .decrement-button {
+    -fx-background-color: #666666;
+}
+
+/* Table header*/
+
+.table-view .column-header-background{
+    -fx-background-color: #191919;
+}
+
+.table-view .column-header-background .label{
+    -fx-background-color: transparent;
+    -fx-text-fill: #43464B;
+    -fx-padding: 3px;
+    -fx-text-fill: #F9FBFE;
+    -fx-font-size: 12px;
+}
+
+.table-view .column-header-background .filler {
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+}
+.table-row-cell {
+    -fx-background-color:#191919;
+}
+
+/* Table Data*/
+
+.table-cell {
+    -fx-background-color: #1E1E20;
+    -fx-text-fill: #D3D3D4;
+    -fx-border-color: #222223;
+    -fx-font-size: 12px;
+    -fx-padding: 5px;
+    -fx-alignment: CENTER;
+}
+.ticker-column {
+    -fx-font-weight: bold;
+}
+
+.positive-change-amount,
+.positive-change-percentage{
+    -fx-background-color: #1D2021;
+    -fx-text-fill: #04B73C;
+}
+.negative-change-amount,
+.negative-change-percentage{
+    -fx-background-color: #2E2020;
+    -fx-text-fill: #BE2317;
+}
+
+.volume-column {
+    -fx-background-color: #25232B;
+    -fx-text-fill: #8671C0;
+}

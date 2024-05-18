@@ -1,0 +1,42 @@
+/* styles.css */
+
+.stock-chart-root {
+    -fx-padding: 15px;
+    -fx-background-color: #202020;
+}
+
+/* Base styles for buttons */
+.stock-button {
+    -fx-background-color: #303135;
+    -fx-border-color: transparent;
+    -fx-border-radius: 50;
+    -fx-background-radius: 50;
+    -fx-transition-duration: 0.3s;
+    -fx-transition-timing-function: linear;
+    -fx-padding: 0px 6px;
+}
+
+/* Hover styles for buttons */
+.stock-button:hover {
+    -fx-transition-delay: 0.5s;
+    -fx-background-color: #F9FBFE;
+}
+
+/* Base styles for text fields */
+.stock-text-field {
+    -fx-background-color: #303135;
+    -fx-border-color: #F9FBFE;
+    -fx-padding: 8px;
+    -fx-text-fill: #F9FBFE;
+    -fx-border-width: 0.3px;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+    -fx-font-size: 12px;
+}
+
+.stock-combo-box {
+    -fx-background-color: #282828;
+    -fx-border-radius: 3px;
+    -fx-padding: 2px;
+    -fx-font-size: 14px;
+}

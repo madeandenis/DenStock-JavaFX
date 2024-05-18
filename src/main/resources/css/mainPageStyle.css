@@ -1,0 +1,73 @@
+/* General Container Styles */
+.root-container,
+.windows-container,
+.scroll-container {
+    -fx-background-color: #202020;
+}
+
+/* Header Styles */
+.header {
+    -fx-background-color: #202020;
+    -fx-padding: 10px;
+}
+
+.logo {
+    -fx-text-fill: rgba(255, 255, 255, 0.7);
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-line-spacing: -7px;
+}
+
+/* Tab Bar Styles */
+.tab-bar {
+    -fx-padding: 5 10 5 5;
+    -fx-background-color: #151515;
+    -fx-border-color: rgba(255, 255, 255, 0.7);
+    -fx-border-width: 0.3px;
+}
+
+.tab-label {
+    -fx-text-fill: rgba(255, 255, 255, 0.7);
+    -fx-background-color: #282828;
+    -fx-padding: 6px;
+}
+
+/* ComboBox Styles */
+.combo-box {
+    -fx-background-color: #282828;
+    -fx-border-radius: 3px;
+    -fx-padding: 2px;
+}
+
+/* Popup Styles */
+.combo-box .list-view {
+    -fx-background-color: #333333;
+}
+
+/* List Cell Styles */
+.combo-box .list-cell {
+    -fx-background-color: transparent;
+    -fx-text-fill: #CCCCCC;
+}
+
+/* Selected Item Styles */
+.combo-box .list-view .list-cell:selected {
+    -fx-background-color: #ACBA21;
+    -fx-text-fill: white;
+}
+
+/* JFXtras Windows Styling */
+.window-titlebar {
+    -fx-background-color: black;
+    -fx-text-fill: rgba(255, 255, 255, 0.5);
+    -fx-border-width: 0.5px;
+    -fx-font-size: 12px;
+    -fx-font-weight: lighter;
+    -fx-alignment: center;
+}
+
+.window {
+    -fx-background-color: #202020;
+    -fx-border-width: 1px;
+    -fx-border-color: #464646;
+}

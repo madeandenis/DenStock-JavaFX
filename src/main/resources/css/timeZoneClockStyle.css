@@ -1,0 +1,22 @@
+@font-face {
+    -fx-font-family: 'Digital-7';
+    src: url('../fonts/digital-7.ttf');
+}
+.city-label {
+    -fx-font-size: 13px;
+    -fx-text-fill: rgb(255,255,255,0.7);
+}
+
+.time-label {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ACBA21;
+    -fx-font-family: 'Digital-7';
+}
+
+.clock-box {
+    -fx-background-color: #1C1920;
+    -fx-border-color: #F9FBFE;
+    -fx-border-width: 0.5px;
+    -fx-padding: 0px 10px;
+}

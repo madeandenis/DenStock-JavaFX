@@ -1,0 +1,28 @@
+/* ListView style */
+.list-view {
+    -fx-background-color: #151515;
+    -fx-control-inner-background: #151515;
+    -fx-control-inner-background-alt: #151515;
+}
+
+/* Selected item style */
+.list-view .list-cell:selected {
+    -fx-background-color: #ACBA21;
+    -fx-text-fill: white;
+}
+
+/* Hover style */
+.list-view .list-cell:filled:hover {
+    -fx-background-color: #454545;
+}
+
+/* Focused style */
+.list-view .list-cell:filled:focused {
+    -fx-background-color: #454545;
+}
+
+/* Clicked style */
+.list-view .list-cell:filled:pressed {
+    -fx-background-color: #ACBA21;
+    -fx-text-fill: white;
+}
