@@ -35,3 +35,8 @@ DenStockJavaFX is a JavaFX application for visualizing and analyzing stock marke
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](https://choosealicense.com/licenses/mit) file for details.
+
+## Demo
+![DenDev-ss1](https://github.com/madeandenis/DenStock-JavaFX/assets/123639454/abae1877-5772-4116-84cb-82d07bcbaf79)
+![DenDev-ss4](https://github.com/madeandenis/DenStock-JavaFX/assets/123639454/155a1496-f2c6-487c-ae7a-02d5caff0f36)
+
